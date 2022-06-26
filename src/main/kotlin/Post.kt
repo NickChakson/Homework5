@@ -5,5 +5,6 @@ data class Post(
     val content: String,
     val created: String,
     var likes: Int,
-    val views: Int
+    val views: Int,
+    var origins: Post?
 ) {}

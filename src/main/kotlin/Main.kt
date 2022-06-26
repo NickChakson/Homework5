@@ -1,8 +1,8 @@
 fun main() {
 
-    val post1 = Post(0, 123, "Gleb", "Some content", "21.05.2041", 0, Views.views())
-    val post2 = Post(0, 321, "Anton", "Some content", "27.05.2041", 0, Views.views())
-    val post3 = Post(0, 231, "Valera", "Some content", "22.05.2041", 0, Views.views())
+    val post1 = Post(0, 123, "Gleb", "Some content", "21.05.2041", 0, Views.views(), null)
+    val post2 = Post(0, 321, "Anton", "Some content", "27.05.2041", 0, Views.views(), null)
+    val post3 = Post(0, 231, "Valera", "Some content", "22.05.2041", 0, Views.views(), null)
 
     WallService.add(post1)
     WallService.add(post2)
